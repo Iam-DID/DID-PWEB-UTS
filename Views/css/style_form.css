@@ -29,19 +29,16 @@ button.btn-primary {
   font-weight: 500;
 }
 
-/* === Tata letak form utama === */
 .container {
   max-width: 900px;
 }
 
-/* === Header sejajar dengan form === */
 .header-section {
   max-width: 900px;
-  margin: 0 auto; /* supaya sejajar dengan card form di bawah */
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
-/* === Form Card === */
 .card {
   max-width: 900px;
   margin: 0 auto;
@@ -50,14 +47,13 @@ button.btn-primary {
   border-radius: 10px;
 }
 
-/* === Tombol Logout agar tidak terlalu menempel === */
 .header-section .btn {
   border-radius: 6px;
   padding: 4px 10px;
 }
 
-/* === Heading === */
 .header-section h3 {
   font-weight: 600;
   color: #2c3e50;
 }
+
