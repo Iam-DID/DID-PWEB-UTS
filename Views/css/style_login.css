@@ -7,7 +7,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Card dengan warna lebih pekat dari background */
 .login-card {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 18px;
@@ -31,7 +30,6 @@ body {
   color: #3b3b3b;
 }
 
-/* Input form */
 .form-control {
   background: rgba(245, 247, 255, 0.9);
   border: 1px solid #c7d2fe;
@@ -55,7 +53,6 @@ body {
   font-weight: 500;
 }
 
-/* Tombol login */
 .btn-primary {
   background: linear-gradient(90deg, #7dd3fc, #818cf8);
   border: none;
@@ -70,7 +67,6 @@ body {
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
-/* Alert */
 .alert {
   border-radius: 10px;
   font-weight: 500;
@@ -88,7 +84,6 @@ body {
   border: 1px solid #fecaca;
 }
 
-/* Link pendaftaran */
 .register-link {
   color: #444;
 }
@@ -104,3 +99,4 @@ body {
   color: #2563eb;
   text-decoration: underline;
 }
+
