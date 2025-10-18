@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 900px;
+  margin: auto;
+}
+
+h3 {
+  font-weight: 600;
+  color: #0d6efd;
+  border-left: 5px solid #0d6efd;
+  padding-left: 10px;
+}
+
+label {
+  font-weight: 500;
+}
+
+button.btn-primary {
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+/* === Tata letak form utama === */
+.container {
+  max-width: 900px;
+}
+
+/* === Header sejajar dengan form === */
+.header-section {
+  max-width: 900px;
+  margin: 0 auto; /* supaya sejajar dengan card form di bawah */
+  padding: 0 1rem;
+}
+
+/* === Form Card === */
+.card {
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+}
+
+/* === Tombol Logout agar tidak terlalu menempel === */
+.header-section .btn {
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+/* === Heading === */
+.header-section h3 {
+  font-weight: 600;
+  color: #2c3e50;
+}
