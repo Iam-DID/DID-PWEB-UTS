@@ -6,8 +6,6 @@ if (!isset($_SESSION['user'])) {
   header("Location: index.php?page=login");
   exit;
 }
-
-// Data dari controller (jika ada)
 $data = $dataUser ?? [];
 ?>
 
@@ -198,3 +196,4 @@ $data = $dataUser ?? [];
   <script src="Views/js/CanvasTTD.js"></script>
 </body>
 </html>
+
